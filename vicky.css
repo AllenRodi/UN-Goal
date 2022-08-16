@@ -24,7 +24,6 @@ html, body {
 #top-nav ul {
     display: flex;
     justify-content: right;
-    
 }
 
 #top-nav ul li {
@@ -33,7 +32,7 @@ html, body {
 
 #top-nav ul li a {
     display: block;
-    padding: 2em;
+    padding: 1em;
     color: rgb(250, 231, 215);
     transition: all 0.5s;
 }
@@ -42,40 +41,29 @@ html, body {
     background: lightgray;
     color: black;
 }
-
-/* Main */
 h1,h2,h3,h4,h5, h6{
     font-family: 'Alegreya Sans', sans-serif;
-    
 
 }
 h1 {
     font-size: 8em;
-    color: rgb(205,6,168);
+    color: rgb(106, 218, 32);
 
 }
 
 h2 {
-    font-size: 3.8em;
-    color: red;
-    text-indent: 10%;
+    font-size: 6.1em;
+    color: rgb(94, 107, 5);
 }
 
 h3 {
-    font-size: 3.8em;
-    color: red;
+    font-size: 4.8em;
+    color: rgb(94, 107, 5);
     text-indent: 50%;
 }
 
-h4{
-    font-size: 3.8em;
-    color: red;
-    text-indent: 10%;
-
-}
-
 p{
-    color: rgb(205, 6, 168);
+    color: rgb(8, 113, 66);
     font-style: italic;
     font-size: 1.8em;
 }
@@ -86,15 +74,11 @@ img {
     object-fit: cover;
     object-position: center;
 
-}
-
-/* #music {
+/* }
+#Zendaya {
     display: block;
     margin-left: auto;
-
-}
-
-
+} */
 
 .flex{
     display: flex;
@@ -108,7 +92,7 @@ img {
 
 .flex img{
     width: 100%;
-} */
+}
 
 /* main */
 
