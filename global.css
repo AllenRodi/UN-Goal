@@ -1,3 +1,27 @@
+*{
+ margin: 0; padding: 0; box-sizing: border-box;
+ 
+}
+
+
+
+
+img{
+    width: 100%;
+}
+
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    font-size: 16px;
+    /* font-family: Arial, sans-serif; */
+}
+
+
 h1 {
     font-size: 45px;
 }
@@ -8,4 +32,22 @@ font-size: 40px;
 
 p {
     
+}
+
+.grid-2col { display: grid; grid-template-columns: repeat(2, 1fr); }
+
+.centered {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+:root {
+    --primary-color:blue;
+    --primary-color-contrast:pink;
+    /* --secondary-color: red */
+    --secondary-color-contrast: black; 
 }
