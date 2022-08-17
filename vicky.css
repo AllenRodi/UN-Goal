@@ -69,23 +69,23 @@ p{
     font-style: italic;
     font-size: 1.8em;
 }
-/* 
+
 .flex{
     display: flex;
-    align-items: center;
+    justify-content: space-around;
 
 }
 .flex p{
     max-width:400px ;
     margin: 0 30px;
 }
-
+/* 
 .flex a {
      width: 50%;
     height: 600px;
     object-fit: cover;
     object-position: center;
-} */
+ }  */
 
 /* main */
 
