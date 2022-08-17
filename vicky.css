@@ -41,6 +41,7 @@ html, body {
     background: lightgray;
     color: black;
 }
+
 h1,h2,h3,h4,h5, h6{
     font-family: 'Alegreya Sans', sans-serif;
 
@@ -67,7 +68,7 @@ p{
     font-style: italic;
     font-size: 1.8em;
 }
-
+/* 
 .flex{
     display: flex;
     align-items: center;
@@ -83,7 +84,7 @@ p{
     height: 600px;
     object-fit: cover;
     object-position: center;
-}
+} */
 
 /* main */
 
@@ -93,6 +94,47 @@ main {
     background-color: rgb(250, 231, 215);
 
 }
+
+
+
+
+.cta{
+    background-color: var(--primary-color);
+    color: var(--primary-color-contrast);
+    padding: 1em;
+    border-radius: 20px;
+    transition: .3s;
+    text-decoration: none;
+
+}
+
+.cta:hover{
+    background-color: var(--primary-color-contrast);
+    color-scheme: var(--primary-color);
+}
+
+.secondary-cta {
+    background-color: var(--secondary-color);
+    color: var(--secondary-color-contrast);
+}
+
+.secondary-cta:hover {
+    color: var(--secondary-color) ;
+    background-color: var(--secondary-color-contrast);
+}
+
+.third-cta {
+    color:var(--primary-color) ;
+    background-color: var(--primary-color-contrast) ;
+    
+}
+
+.third-cta:hover{
+    color: var(--primary-color-contrast);
+    background-color: var(--primary-color);
+
+}
+
 
 /* footer */
 
