@@ -73,6 +73,7 @@ img {
     height: 600px;
     object-fit: cover;
     object-position: center;
+}
 
 /* }
 #Zendaya {
@@ -85,7 +86,7 @@ img {
     align-items: center;
 
 }
-.flex p{
+.flex p {
     max-width:400px ;
     margin: 0 30px;
 }
