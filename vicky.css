@@ -46,18 +46,18 @@ h1,h2,h3,h4,h5, h6{
 
 }
 h1 {
-    font-size: 8em;
+    font-size: 2em;
     color: rgb(106, 218, 32);
 
 }
 
 h2 {
-    font-size: 6.1em;
+    font-size: 2em;
     color: rgb(94, 107, 5);
 }
 
 h3 {
-    font-size: 4.8em;
+    font-size: 2em;
     color: rgb(94, 107, 5);
     text-indent: 50%;
 }
@@ -67,18 +67,6 @@ p{
     font-style: italic;
     font-size: 1.8em;
 }
-
-img {
-    width: 50%;
-    height: 600px;
-    object-fit: cover;
-    object-position: center;
-
-/* }
-#Zendaya {
-    display: block;
-    margin-left: auto;
-} */
 
 .flex{
     display: flex;
@@ -90,8 +78,11 @@ img {
     margin: 0 30px;
 }
 
-.flex img{
-    width: 100%;
+.flex a {
+     width: 50%;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
 }
 
 /* main */
@@ -154,4 +145,10 @@ footer #social ul li a {
     width: 30px;
     height: 30px;
     border-radius: 30px;
+}
+
+.button-container {
+    border-radius: 1px double black;
+    margin: auto;
+    padding: auto;
 }
