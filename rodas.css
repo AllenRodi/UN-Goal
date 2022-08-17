@@ -6,6 +6,33 @@
 }
 
 
+/* NAV BAR */
+
+#top-nav {
+    background-color: gray;
+}
+
+#top-nav ul {
+    display: flex;
+    justify-content: right;
+}
+
+#top-nav ul li {
+    list-style: none;
+}
+
+#top-nav ul li a {
+    display: block;
+    padding: 1em;
+    color: rgb(250, 231, 215);
+    transition: all 0.5s;
+}
+
+#top-nav ul li a:hover {
+    background: lightgray;
+    color: black;
+}
+
 
 
 
@@ -16,19 +43,26 @@ section{
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding: 50px 0;
+    padding: 100px 0;
     border-bottom: 1px solid black;
     border-bottom: 1px solid var(--secondary-color-contrast) ;
 
 }
 
 .hero {
-    background-image: url(./Rodas-images/no-revisions-8Xm3NDLsvUA-unsplash.jpg);
+    background-image: url(./Rodas-images/img\ 5.png);
     background-color: gray;
     height: 400px;
 }
-.primary-bg {
+.gray-bg {
     background-color: var(--primary-color-contrast);
+    background-image: url(./Rodas-images/img\ 4.jpg);
+
+}
+
+.light-gray-bg{
+    background-image: url(./Rodas-images/img\ 6.jpg);
+    color: whitesmoke;
 }
 
 .cta{
@@ -47,6 +81,7 @@ section{
 }
 
 .secondary-cta {
+
     background-color: var(--secondary-color);
     color: var(--secondary-color-contrast);
 }
@@ -55,6 +90,60 @@ section{
     color: var(--secondary-color) ;
     background-color: var(--secondary-color-contrast);
 }
+
+/* footer */
+
+footer {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    background-color: gray;
+}
+
+footer nav {
+    padding: 10px 20px;
+    font-size: 15px;
+    
+    
+}
+
+footer nav li {
+    list-style: none;
+
+}
+
+footer a {
+    color: beige;
+}
+
+ footer a:hover {
+    color: white;
+    background: lightgrey;
+}
+
+footer #social {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+footer #social ul{
+    display: flex;
+    justify-content: center;
+}
+
+footer #social ul li {
+    list-style: none;
+    
+}
+
+footer #social ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
 
 
 
