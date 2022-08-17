@@ -3,7 +3,13 @@
  
 }
 
-
+:root {
+    --primary-color:blue;
+    --primary-color-contrast:pink;
+    /* --secondary-color: red */
+    --secondary-color-contrast: black; 
+    
+}
 
 
 img{
@@ -45,9 +51,3 @@ p {
 
 }
 
-:root {
-    --primary-color:blue;
-    --primary-color-contrast:pink;
-    /* --secondary-color: red */
-    --secondary-color-contrast: black; 
-}
